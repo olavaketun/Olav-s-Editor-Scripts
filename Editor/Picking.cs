@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-public class Picking : MonoBehaviour
+public class Picking
 
 {
 	[MenuItem("Tools/Picking/Disable Picking")]
