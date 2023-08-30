@@ -7,7 +7,7 @@ public class Picking : MonoBehaviour
 
 {
 	[MenuItem("Tools/Picking/Disable Picking")]
-	private static void DisablePicking()
+	static void DisablePicking()
 	{
 		//Array of selected objects
 		GameObject[] selectedObject = Selection.gameObjects;
@@ -17,7 +17,7 @@ public class Picking : MonoBehaviour
 		SceneVisibilityManager.instance.DisablePicking(selectedObject, true);
 	}
 	[MenuItem("Tools/Picking/Enable Picking")]
-	private static void EnablePicking()
+	static void EnablePicking()
 	{
 		//Array of selected objects
 		GameObject[] selectedObject = Selection.gameObjects;
