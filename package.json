@@ -1,0 +1,20 @@
+{
+  "name": "com.olavaketun.olav-s-Editor-Scripts",
+  "version": "0.0.1",
+  "displayName": "Olavs Editor Scripts",
+  "description": "Olavs editor scripts package",
+  "unity": "2022.2",
+  "unityRelease": "4f1",
+  "dependencies": {
+  },
+  "keywords": [
+    "olav",
+    "editor",
+	"scripts"
+  ],
+  "author": {
+    "name": "Olav",
+    "email": "unity@example.com",
+    "url": "https://github.com/olavaketun/Olav-s-Editor-Scripts/"
+  }
+}
