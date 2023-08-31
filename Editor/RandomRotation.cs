@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-public class RotationRotation
+//This script is meant to allow the user to randomly rotate selected object/s along it's Y axis.
 
+public class RotationRotation
 {
 	[MenuItem("Tools/Randomize/Rotation/Random Rotation")]
 	private static void RandomizeRotation180()

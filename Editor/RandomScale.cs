@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-public class RotationScale
+//A script allowing the user to scale selected object/s randomly along all axis.
+//It includes scaling randomly from 0 to 0.1, all the way to 0 to 0.5. Not sure if it's needed but heyho.
 
+public class RotationScale
 {
 	[MenuItem("Tools/Randomize/Scale/Random Scale 0.1")]
 	private static void RandomizeScaleTenth()

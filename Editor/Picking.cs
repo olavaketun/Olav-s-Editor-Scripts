@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-public class Picking
+//A script that allows the user to disable (or enable) picking in Unity.
+//Picking means whether or not you can select it through the viewport, either by clicking or box select.
 
+public class Picking
 {
 	[MenuItem("Tools/Picking/Disable Picking")]
 	static void DisablePicking()
